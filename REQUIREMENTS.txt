@@ -2,6 +2,8 @@ keras==2.0.5
 tensorflow
 pandas
 numpy==1.12.1
-h5py==2.7.0
+h5py
 statistics
 opencv-python
+scikit-imag
+imageio
