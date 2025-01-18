@@ -6,9 +6,9 @@ Github: https://github.com/oarriaga
 Description: Train emotion classification model
 """
 
-from keras.callbacks import CSVLogger, ModelCheckpoint, EarlyStopping
-from keras.callbacks import ReduceLROnPlateau
-from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.callbacks import CSVLogger, ModelCheckpoint, EarlyStopping
+from tensorflow.keras.callbacks import ReduceLROnPlateau
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 from models.cnn import mini_XCEPTION
 from utils.datasets import DataManager
